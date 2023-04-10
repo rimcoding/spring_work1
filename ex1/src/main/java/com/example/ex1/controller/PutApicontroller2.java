@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.ex1.model.UserDto;
 
 @RestController
-@RequestMapping("/api2")
+@RequestMapping("/api99")
 public class PutApicontroller2 {
 
 	@PutMapping("/putput1")
