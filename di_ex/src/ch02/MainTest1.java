@@ -27,6 +27,8 @@ public class MainTest1 {
 //		Encoder encoder3 = new Encoder(new MyEncoder());
 //		String result3 = encoder3.encode(url);
 //		System.out.println("result3 : " + result3);
+		
+		
 	}
 
 }
