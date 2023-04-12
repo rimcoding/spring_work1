@@ -1,13 +1,14 @@
-package ch03;
+package ch04;
 
-public class MediumMonitor implements Monitor{
+public class SmallMonitor implements Monitor {
 	private boolean isTurn;
 	private int size;
 	
-	public MediumMonitor() {
-		this.size = 100;
+	public SmallMonitor() {
+		this.size = 50;
 		this.isTurn = false;
 	}
+
 	@Override
 	public boolean turnOn() {
 		this.isTurn = true;
@@ -17,9 +18,9 @@ public class MediumMonitor implements Monitor{
 	@Override
 	public boolean turnOff() {
 		this.isTurn = false;
-		return isTurn;
+		return this.isTurn;
 	}
-	
+
 	@Override
 	public int getSize() {
 		return this.size;

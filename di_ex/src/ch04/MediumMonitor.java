@@ -1,6 +1,7 @@
-package ch03;
+package ch04;
 
-public class MediumMonitor implements Monitor{
+public class MediumMonitor implements Monitor {
+
 	private boolean isTurn;
 	private int size;
 	
@@ -8,10 +9,11 @@ public class MediumMonitor implements Monitor{
 		this.size = 100;
 		this.isTurn = false;
 	}
+
 	@Override
 	public boolean turnOn() {
 		this.isTurn = true;
-		return this.isTurn;
+		return isTurn;
 	}
 
 	@Override
@@ -19,7 +21,7 @@ public class MediumMonitor implements Monitor{
 		this.isTurn = false;
 		return isTurn;
 	}
-	
+
 	@Override
 	public int getSize() {
 		return this.size;
