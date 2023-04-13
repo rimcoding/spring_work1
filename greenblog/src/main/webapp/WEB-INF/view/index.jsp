@@ -25,6 +25,7 @@ header {
 	height: 80px;
 	border-radius: 3px;
 	margin-bottom: 20px;
+	background-image: url("image/banner.png");
 }
 
 .list {
@@ -94,15 +95,17 @@ nav {
 }
 
 .textbox {
-	height: 80px;
+	height: 50px;
 	padding: 10px;
 	font-size: 13px;
 }
 
 .datebox {
+	padding: 10px;
 	height: 20px;
 	color: #ccc;
 	font-weight: bold;
+	font-size: 13px;
 }
 
 .pageNumber {
@@ -161,6 +164,18 @@ color: black;
 	margin-top: 25px;
 	margin-left: 650px;
 }
+.pageNumber ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.pageNumber ul li a:hover{
+	color: aqua;
+}
+.textbox a{
+text-decoration: none;
+color: black;
+}
 </style>
 </head>
 <body>
@@ -168,17 +183,17 @@ color: black;
 		<header>
 			<div class="headers">
 				<h1 class=header_text>
-					Green's Blog<img alt="" src="/image/1.png" class="image1">
+					Green's Blog<a href="#"><img alt="" src="/image/1.png" class="image1"></a>
 				</h1>
 				<div class="camera">
-					<img alt="" src="image/4.png" width="26px" height="26px" style="margin-bottom: 3px"> <img alt="" src="image/5.png" width="30px" height="30px">
+					<a href="https://www.instagram.com/"><img alt="" src="image/4.png" width="26px" height="26px" style="margin-bottom: 3px"></a> <a href="https://www.youtube.com/"><img alt="" src="image/5.png" width="30px" height="30px"></a>
 				</div>
 			</div>
 		</header>
 		<div class="container">
 			<nav class=list>
 				<ul>
-					<li class="alltext"><a href="#">전체보기</a><img alt="" src="/image/1.png" class="image2"></li>
+					<li class="alltext"><a href="#">전체보기</a><a href="#"><img alt="" src="/image/1.png" class="image2"></a></li>
 					<li>&nbsp</li>
 					<li><a href="#">Python(12)</a></li>
 					<li><a href="#">Java(2)</a></li>
@@ -196,105 +211,106 @@ color: black;
 				<div class="container_text">
 					<p>경영 전략&nbsp</p>
 					<p class="container_text2">20</p>
-					<img alt="" src="/image/3.png" class="writephoto">
+					<a href="#"><img alt="" src="/image/3.png" class="writephoto"></a>
 				</div>
 
 				<div class="image-container">
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</a></p>
 						<p class="datebox">2022. 12. 30</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">불황 속에서도 기업 성장 피하는 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">불황 속에서도 기업 성장 피하는 전략</a></p>
 						<p class="datebox">2022. 12. 8</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">CSV 실행, 전략적으로 접근이 필요하다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">CSV 실행, 전략적으로 접근이 필요하다</a></p>
 						<p class="datebox">2022. 12. 7</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</a></p>
 						<p class="datebox">2022. 12. 2</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</a></p>
 						<p class="datebox">2022. 12. 30</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">불황 속에서도 기업 성장 피하는 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">불황 속에서도 기업 성장 피하는 전략</a></p>
 						<p class="datebox">2022. 12. 8</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">CSV 실행, 전략적으로 접근이 필요하다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">CSV 실행, 전략적으로 접근이 필요하다</a></p>
 						<p class="datebox">2022. 12. 7</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</a></p>
 						<p class="datebox">2022. 12. 2</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</a></p>
 						<p class="datebox">2022. 12. 30</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">불황 속에서도 기업 성장 피하는 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">불황 속에서도 기업 성장 피하는 전략</a></p>
 						<p class="datebox">2022. 12. 8</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">CSV 실행, 전략적으로 접근이 필요하다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">CSV 실행, 전략적으로 접근이 필요하다</a></p>
 						<p class="datebox">2022. 12. 7</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</a></p>
 						<p class="datebox">2022. 12. 2</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">랜덤 확보에 성공한 4세대 걸그룹의 차별화 전략</a></p>
 						<p class="datebox">2022. 12. 30</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">불황 속에서도 기업 성장 피하는 전략</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">불황 속에서도 기업 성장 피하는 전략</a></p>
 						<p class="datebox">2022. 12. 8</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">CSV 실행, 전략적으로 접근이 필요하다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">CSV 실행, 전략적으로 접근이 필요하다</a></p>
 						<p class="datebox">2022. 12. 7</p>
 					</div>
 					<div class="image-container2">
-						<img alt="" src="/image/2.png" class="imagephoto">
-						<p class="textbox">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</p>
+						<a href="#"><img alt="" src="/image/2.png" class="imagephoto"></a>
+						<p class="textbox"><a href="#">뉴노멀 시대 사무실,작은 변화로 극대화하는 방법의 새로운 방법을 논한다</a></p>
 						<p class="datebox">2022. 12. 2</p>
 					</div>
+					
 
 					<div class="pageNumber">
 						<ul>
-							<li><&nbsp이전</li>
-							<li>1</li>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-							<li>5</li>
-							<li>6</li>
-							<li>7</li>
-							<li>8</li>
-							<li>9</li>
-							<li>10</li>
-							<li>다음&nbsp></li>
+							<li><a href="#"><&nbsp이전</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#">9</a></li>
+							<li><a href="#">10</a></li>
+							<li><a href="#">다음&nbsp></a></li>
 						</ul>
 					</div>
 				</div>
