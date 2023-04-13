@@ -201,29 +201,6 @@ margin-top: 10px;
 					<a href="https://www.instagram.com/"><img alt="" src="image/4.png" width="26px" height="26px" style="margin-bottom: 3px"></a> <a href="https://www.youtube.com/"><img alt="" src="image/5.png" width="30px" height="30px"></a>
 				</div>
 			</div>
-			<div class="hearder_bottom">
-			<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">home</a></li>
-      <li><a class="dropdown-item" href="#">community</a></li>
-      <li><a class="dropdown-item" href="#">project</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">profile</a></li>
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
-</div>
 		</header>
 		<div class="container">
 			<nav class=list>
@@ -352,5 +329,6 @@ margin-top: 10px;
 			</section>
 		</div>
 	</div>
+	
 </body>
 </html>

@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+    
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -25,6 +26,7 @@
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">Main</a></li>
@@ -32,8 +34,10 @@
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
+        
         <!-- Masthead-->
         <header class="masthead" id="about">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
